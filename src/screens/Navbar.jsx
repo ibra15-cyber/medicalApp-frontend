@@ -74,7 +74,7 @@ function Navbar() {
                 height: "19px",
                 color: "#072635",
                 opacity: 1,
-                font: "normal normal bold 14/px/19px Manrope",
+                font: "normal normal bold 14px/19px Manrope",
               }}
             >
               Overview
@@ -112,7 +112,7 @@ function Navbar() {
                 height: "19px",
                 color: "#072635",
                 opacity: 1,
-                font: "normal normal bold 14/px/19px Manrope",
+                font: "normal normal bold 14px/19px Manrope",
                 backgroundColor: "#01F0D0",
               }}
             >
@@ -142,7 +142,7 @@ function Navbar() {
                 height: "19px",
                 color: "#072635",
                 opacity: 1,
-                font: "normal normal bold 14/px/19px Manrope",
+                font: "normal normal bold 14px/19px Manrope",
               }}
             >
               Schedule
@@ -171,7 +171,7 @@ function Navbar() {
                 height: "19px",
                 color: "#072635",
                 opacity: 1,
-                font: "normal normal bold 14/px/19px Manrope",
+                font: "normal normal bold 14px/19px Manrope",
               }}
             >
               Message
@@ -200,7 +200,7 @@ function Navbar() {
                 height: "19px",
                 color: "#072635",
                 opacity: 1,
-                font: "normal normal bold 14/px/19px Manrope",
+                font: "normal normal bold 14px/19px Manrope",
               }}
             >
               Transaction
