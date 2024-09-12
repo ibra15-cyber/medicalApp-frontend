@@ -47,11 +47,13 @@ function SideBar() {
   const fetchPatients = async () => {
     try {
       dispatch({ type: "FETCH_PATIENT_DATA" }); // Set loading to true before fetching
-      const { data } = await axios.get("/api/patients/");
+      const { data } = await axios.get(
+        "https://medicalapp-backend-le1u.onrender.com/api/patients/"
+      );
       localStorage.setItem("patientsData", JSON.stringify(data));
 
       const response = await axios.get(
-        "/api/patients/66df540a2870a9f19e8f3ea4"
+        "https://medicalapp-backend-le1u.onrender.com/api/patients/66df540a2870a9f19e8f3ea4"
       );
       localStorage.setItem("patientData", JSON.stringify(response.data));
 
