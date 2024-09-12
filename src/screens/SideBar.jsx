@@ -49,7 +49,7 @@ function SideBar() {
       dispatch({ type: "FETCH_PATIENT_DATA" }); // Set loading to true before fetching
 
       const response = await axios.get(
-        `${import.meta.env.VITE_API_URL}/api/patients/66df540a2870a9f19e8f3ea4/`
+        `${import.meta.env.VITE_API_URL}/api/patients/66e35d7b315df0a96ed08f24/`
       );
 
       localStorage.setItem("patientData", JSON.stringify(response.data));
