@@ -158,8 +158,7 @@ function Inner() {
                   (c, dh) => c + dh.respiratory_rate.value,
                   0
                 ) / state.patientData.diagnosis_history.length
-              )}
-              {""}
+              )}{" "}
               bpm
             </p>
             <div style={{ paddingLeft: "16px", backgroundColor: "#E0F3FA" }}>
